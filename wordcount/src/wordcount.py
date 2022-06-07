@@ -35,5 +35,8 @@ rdd.saveAsTextFile('./src/output/')
 # But for more realistic use cases, we might want to remove them, by filtering them out using the list nltk.stopwords
 
 top_n = 50
-print("Count preview of the top {} most common words".format(top_n))
+print("\n" * 4)
+print("Count preview of the top {} most common words : \n".format(top_n))
 print(rdd.take(top_n))
+
+print("\n To copy the whole output to your machine, please refer to step 4 in the README.md")
