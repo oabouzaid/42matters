@@ -17,7 +17,7 @@ In order to run this container you'll need docker installed.
 
 ### Usage
 
-1. Build the docker image which consists of copying the python code, the librart `requirements.txt` file, and downloading the input data using `curl` command.
+1. Build the docker image which consists of copying the python code, the library `requirements.txt` file, and downloading the input data using `curl` command.
 
 ```shell
 docker build -t wordcount <DESIRED_LOCATION>
