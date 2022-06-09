@@ -44,7 +44,4 @@ reg = RandomForestRegressor().fit(X, y)
 movies['count_prediction'] = reg.predict(movies).round()
 
 # Save to csv file
-
-import os
-
 movies.to_csv('prediction.csv')
